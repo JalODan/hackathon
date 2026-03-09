@@ -1,4 +1,6 @@
 from dto.request import ScenarioInputDto
+from rules import STOP_SIGNS, GO_SIGNS
+
 
 CONFIDENCE_THRESHOLD = 0.5
 
@@ -11,12 +13,14 @@ def decide_action(fused_text: str, confidence: float, scenario: ScenarioInputDto
     if confidence < CONFIDENCE_THRESHOLD:
         return "HUMAN_CONFIRMATION"
 
+    text = fused_text.strip().upper()
+
     # 2. исключение для автобуса
-    if "ECCETTO BUS" in text:
+    if text in GO_SIGNS:
         return "GO"
 
     # 3. запрет
-    if "DIVIETO" in text or "VIETATO" in text:
+    if text in STOP_SIGNS:
         return "STOP"
 
-    return "GO"
+    return "HUMAN_CONFIRMATION"

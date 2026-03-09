@@ -181,13 +181,14 @@ if __name__ == "__main__":
         scenari = []
 
     print("--- TEST FUSIONE SENSORI ---")
-    for scenario in scenari[:15]:
+    for scenario in scenari[:1000]:
         id_scen = scenario["id_scenario"]
         sensori = scenario["sensori"]
 
         testo_finale, confidenza_finale = fondi_sensori_avanzato(sensori)
 
-        print(f"Scenario {id_scen}:")
-        print(f"  Testo Estratto: '{testo_finale}'")
-        print(f"  Confidenza:     {confidenza_finale:.2f}")
-        print("-" * 40)
+        # print(f"Scenario {id_scen}:")
+        print(testo_finale)
+        # print(f"  Testo Estratto: '{testo_finale}'")
+        # print(f"  Confidenza:     {confidenza_finale:.2f}")
+        # print("-" * 40)
