@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 
-from backend.dto.request import ScenarioInputDto
-from backend.dto.response import DecisionResponseDto
+from dto.request import ScenarioInputDto
+from dto.response import DecisionResponseDto
 
 router = APIRouter(prefix="/api", tags=["decision"])
 
