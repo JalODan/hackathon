@@ -110,7 +110,7 @@ def fondi_sensori_avanzato(sensori):
 
 if __name__ == "__main__":
     # Percorso locale per l'ambiente di sviluppo
-    percorso_file = r"C:\Users\nicco\Documents\Hackathon\VShuttle-input.json"
+    percorso_file = r"C:\Users\Olzhas\Desktop\hackathon\VShuttle-input.json"
 
     try:
         with open(percorso_file, 'r', encoding='utf-8') as file:
