@@ -1,5 +1,15 @@
 # ===== STOP (движение запрещено) =====
 
+GO_ALWAYS = {
+    ""
+}
+
+STOP_ALWAYS = {
+    "ZTL"
+}
+
+
+
 STOP_SIGNS = {
     "DIVIETO",
     "DIVIETO L4",
