@@ -14,7 +14,7 @@ After normalization and fusion the system produces a structured result containin
 ## Running instruction
 Run the project with:
 
-docker compose up --build
+```docker compose up --build```
 
 ## Screenshots 
 <img width="1834" height="1005" alt="Screenshot 2026-03-09 174905" src="https://github.com/user-attachments/assets/c25ccd3d-823e-4766-ae55-d3daa320cdb3" />
