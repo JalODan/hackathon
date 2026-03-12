@@ -36,8 +36,8 @@ Run the project with:
 
 <img width="1832" height="1017" alt="Screenshot 2026-03-09 174954" src="https://github.com/user-attachments/assets/3f1efa39-0ce4-44da-b2af-2db4cf970b1a" />
 
-<img width="1833" height="1019" alt="Screenshot 2026-03-09 175048" src="https://github.com/user-attachments/assets/af5c2216-29b0-43f9-b1dd-8c357ece8ecf" />
-
 <img width="1834" height="1029" alt="Screenshot 2026-03-09 175110" src="https://github.com/user-attachments/assets/1baa2494-68d7-431f-a092-ddda4cd329b3" />
+
+<img width="1833" height="1019" alt="Screenshot 2026-03-09 175048" src="https://github.com/user-attachments/assets/af5c2216-29b0-43f9-b1dd-8c357ece8ecf" />
 
 <img width="1827" height="1017" alt="Screenshot 2026-03-09 175243" src="https://github.com/user-attachments/assets/ad17dacc-180d-4255-9db5-d17ed0d2c8bb" />
