@@ -1,5 +1,13 @@
 # V-Shuttle Backend
 
+## Team
+
+| Name | Contribution |
+|-----|-----|
+| Abish Jha | Developed the user interface, implemented the dashboard for displaying fused sensor outputs and navigation decisions. |
+| Niccolò Pratesi | Developed the text recognition and normalization pipeline, including OCR correction and fuzzy matching for noisy sensor readings. |
+| Olzhas Jalmukhambetov | Designed the backend service architecture, implemented sensor data fusion logic, API endpoints, and Docker deployment. |
+
 ## Introduction
 Backend service for the V-Shuttle hackathon project. The system resolves ambiguity between multiple shuttle sensors and produces a single clear navigation instruction.
 
